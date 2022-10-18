@@ -1,0 +1,13 @@
+<?php
+
+$tiendita_cafes = array(
+    "Americano" => 20, 
+    "Latte" => 25,
+    "Capuccino" => 27,
+    "Mocca" => 24
+);
+
+foreach($tiendita_cafes as $coffee => $price) {
+
+    echo "Un $coffee cuesta USD $$price" . PHP_EOL;
+}
